@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css?v=1.1">
+    <link rel="stylesheet" href="fonts.css">
+    <meta name="robots" content="noarchive">
+</head>
+<body>
+    
+    <header class="head">
+        <nav class="menu">
+            <ul class="menu__item">
+                <li class="menu__section"><a href="#aboutme" class="menu__link boutmelink">About Me</a></li>
+                <li class="menu__section"><a href="#skills" class="menu__link skillslink">Skills</a></li>
+                <li class="menu__section"><a href="#projects" class="menu__link projectslink">Projects</a></li>
+                <li class="menu__section contact"><a href="#contact" class="menu__link contactme">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <main class="info">
+        <div class="main__item">
+
+            <div class="general">
+                <h1 class="titulo">Agustín Alexis Reyes Castillo</h1>
+                <div class="myphotodiv">
+                    <img class="myphoto" src="img/perfil.jpg" alt="foto de perfil">
+                </div>
+            </div>
+
+            <div class="boutme">
+                <h2 cLass="aboutme" id="aboutme">ABOUT ME</h2>
+                <p class="butme">Im a 3rd semester system engineer student at Technologial Institute of "La Laguna"</p>
+            </div>
+            
+            <div class="skills">
+                <h2 class="skills" id="skills">SKILLS</h2>
+            </div>
+            
+
+
+            <div class="lenguajes">
+
+                <div class="cpp">
+                    <p>c++</p>
+                    <img class="leng" src="img/ISO_C++_Logo.webp" alt="logo c++">
+                    <div class="nivel">
+                        <div class="nivel__item nivelcpp"></div>
+                    </div>
+                    <p>JUNIOR</p>
+                </div>
+
+
+                <div class="html">
+                    <p>html</p>
+                    <img class="leng" src="img/HTML5_logo_and_wordmark.webp" alt="logo HTML">
+                    
+                    <div class="nivel">
+                        <div class="nivel__item nivelhtml"></div>
+                    </div>
+                    <p>JUNIOR</p>
+                </div>
+
+
+                <div class="css">
+                    <p>CSS</p>
+                    <img class="leng" src="img/121-css3-512.webp" alt="logo CSS">
+                    
+                    <div class="nivel">
+                        <div class="nivel__item nivelcss"></div>
+                    </div>
+                    <p>JUNIOR</p>
+                </div>
+
+                <div class="java">
+                    <p>Java</p>
+                    <img class="leng" src="img/java-logo-1.webp" alt="logo java">
+                    
+                    <div class="nivel">
+                        <div class="nivel__item niveljava"></div>
+                    </div>
+                    <p>JUNIOR</p>
+                </div>
+
+                <div class="javaScript">
+                    <p>JavaScript</p>
+                    <img class="leng" src="img/javascript-1.webp" alt="logo javaScript">
+                    
+                    <div class="nivel">
+                        <div class="nivel__item niveljavascript"></div>
+                    </div>
+                    <p>JUNIOR</p>
+                </div>
+            </div>
+            
+
+            <div class="projects">
+                <h2 class="projects" id="projects">PROJECTS</h2>
+
+             <div class="cuadrosproy">   
+                <div class="proyectos">
+                    <img class="img-proy" src="img/Captura de pantalla 2024-10-20 141455.png" alt="">
+                </div>
+            </div>
+
+            </div>
+            
+            <h2 class="contact contacth1" id="contact">CONTACT</h2>
+            <div class="contacto"> 
+                <div class="email">
+                    <input class="email inputemail" type="text" value="reyescastilloagustinalexis@gmail.com" readonly >
+                <input type="button" class="copiar" id="copiar" value="copiar" onclick="copyText()" >
+                </div>
+                
+                <div class="github">
+                    <input type="button" value="GitHub" class="github" onclick="github()">
+                </div>  
+            </div>
+
+        </div>
+    </main>
+
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
