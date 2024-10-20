@@ -1,0 +1,140 @@
+body{
+    margin:0;
+    background-color: #213;
+    color:white;
+    font-family:jetBrains;
+}
+
+a{
+    font-style: none;
+    color: white;   
+}
+
+a:hover{
+    color: #968;
+}
+
+.head{
+    display: flex;
+    position:sticky;
+    justify-content: center;
+    top:0;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    z-index: 1;
+    height: 40px;
+    background-color: #000;
+}
+
+.head li, nav, ul{
+    display:flex;
+    justify-content: space-evenly;
+    gap:30px;
+    
+
+}
+
+.head li{
+    display:flex;
+}
+
+/*Parte main*/
+
+.info{
+    display:flex;
+    position: relative;
+    flex-direction: column;
+    height: 1000px;
+    border: 1px solid #f00;
+    text-align: center;
+}
+
+/*Nivel de habilidades de programación*/
+.nivel{
+    display:flex;
+    box-sizing: border-box;
+    justify-self: center;
+    align-content: center;
+    overflow: hidden;;
+    height: 20px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.lenguajes{
+    display:flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-self: center;
+    justify-content: space-evenly;
+    flex-basis: 0;
+    min-width: 500px;
+}
+
+.leng{
+    height: 200px;;
+}
+
+.myphotodiv{
+    height: 300px;
+    width: 300px;
+    display:flex;
+    position:relative;
+    justify-self: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.myphoto{
+    position: absolute;
+    width: 100%;
+    align-self:center;
+    justify-self: center;
+}
+
+.nivel__item{
+    background-color: rgb(84, 159, 84);
+    height: 80%;
+    width: 50%;
+    border-radius: 10px 0 0 10px;
+    align-self: center;
+    margin-left: 5px;
+}
+
+.contacto{
+    color:black;
+    font-family: jetBrains;
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+    flex-basis:0;
+    justify-self: center;
+    flex-grow: 1;
+    min-width: 300px;
+}
+
+.contactme:hover + #contact{
+    color: red;
+}
+
+.email{
+    display:flex;
+    min-width: 300px;
+    overflow: hidden;;
+}
+
+.copiar{
+    margin-left: 15px;
+    width: 80px;
+    height: 30px;
+    font-family: jetBrains;
+}
+
+.github{
+    font-family: jetBrains;
+    height: 50px;
+    width: 100px;
+    align-self: center;
+}
+
