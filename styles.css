@@ -1,0 +1,232 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body{
+    margin:0;
+    background-color: #213;
+    color:white;
+    font-family:jetBrains;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+    /*PARTE DEL NAV*/
+
+.head{
+    display: flex;
+    position:sticky;
+    justify-content: center;
+    top:0;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    z-index: 10;
+    height: 40px;
+    background-color: #000;
+}
+
+/*Parte interna*/
+.head li, nav, ul{
+  
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    gap:30px;
+    padding: 0;
+}
+
+/*Parte de lista*/
+.head li{
+    display:flex;
+    flex-wrap:nowrap; 
+}
+
+/*links*/
+a{
+    font-style: none;
+    color: white;   
+}
+
+a:hover{
+    color: #968;
+}
+
+
+
+
+
+
+/*Parte main*/
+.info{
+    display:flex;
+    position: relative;
+    flex-direction: column;
+    margin: auto 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+/*general*/
+.myphotodiv{
+    height: 300px;
+    width: 300px;
+    display:flex;
+    position:relative;
+    justify-self: center;
+    align-self:center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.myphoto{
+    position: absolute;
+    width: 100%;
+    align-self:center;
+    justify-self: center;
+}
+
+/*ABOUT ME*/
+.boutme{
+    margin: auto 20px;
+}
+
+    /*SKILLS*/
+.lenguajes{
+    display:flex;
+    max-width: 800px;
+    gap: 50px;
+    align-items: center;
+    flex-wrap: wrap;
+    align-self: center;
+    justify-self: center;
+    justify-content: space-evenly;
+    flex-basis: 0;  
+
+}
+
+
+.nivel{
+    display:flex;
+    box-sizing: border-box;
+    justify-self: center;
+    align-content: center;
+    overflow: hidden;;
+    height: 20px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: #fff;
+    margin-top: 20px;
+}
+
+.lenguajes > div{
+    width: 200px;
+}
+
+.leng{
+    height: 200px;   
+}
+
+
+.nivel__item{
+    background-color: rgb(84, 159, 84);
+    height: 80%;
+    width: 20%;
+    border-radius: 10px 0 0 10px;
+    align-self: center;
+    margin-left: 5px;
+}
+
+.niveljava{
+    width: 40%;
+}
+.nivelcss{
+    width: 50%;
+}
+.nivelhtml{
+    width: 30%; 
+}
+.nivelcpp{
+    width: 60%;
+}
+
+
+    /*PROJECTS*/
+.projects{
+    display:flex;
+    gap: 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+ 
+}
+
+.cuadrosproy{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    gap: 50px;
+    justify-content:center;
+}
+
+.proyectos{
+    display:flex;
+    border: 3px solid #555;
+    box-shadow: 0 0 40px #fff;
+    max-width: 500px;
+    
+    
+}
+
+.img-proy{
+    width: 100%;
+}
+
+    /*CONTACT ME*/
+.contacto{
+    color:black;
+    font-family: jetBrains;
+
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+    flex-basis:0;
+    justify-self: center;
+    align-items: center;
+    flex-grow: 1;
+
+    min-width: 300px;
+    margin-bottom: 50px;
+}
+
+.email{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.email{
+    display:flex;
+    min-width: 300px;
+    overflow: hidden;
+    
+}
+
+.copiar{
+    margin-left: 15px;
+    width: 80px;
+    height: 30px;
+    font-family: jetBrains;
+}
+
+.github{
+    font-family: jetBrains;
+    height: 50px;
+    width: 100px;
+    align-self: center;
+}
+
