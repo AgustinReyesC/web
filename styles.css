@@ -1,8 +1,19 @@
+html {
+    scroll-behavior: smooth;
+  }
+
 body{
     margin:0;
     background-color: #213;
     color:white;
     font-family:jetBrains;
+}
+
+.main__item{
+    display:flex;
+    width: 100%;
+    flex-direction: column;
+    box-sizing: border-box;
 }
 
 a{
@@ -28,14 +39,18 @@ a:hover{
 
 .head li, nav, ul{
     display:flex;
+    flex-wrap: nowrap;
     justify-content: space-evenly;
     gap:30px;
+    padding: 0;
     
 
 }
 
 .head li{
     display:flex;
+    flex-wrap:nowrap;
+    justify-content: ;
 }
 
 /*Parte main*/
@@ -45,7 +60,7 @@ a:hover{
     position: relative;
     flex-direction: column;
     height: 1000px;
-    border: 1px solid #f00;
+
     text-align: center;
 }
 
@@ -69,7 +84,7 @@ a:hover{
     justify-self: center;
     justify-content: space-evenly;
     flex-basis: 0;
-    min-width: 500px;
+ 
 }
 
 .leng{
@@ -82,6 +97,7 @@ a:hover{
     display:flex;
     position:relative;
     justify-self: center;
+    align-self:center;
     border-radius: 50%;
     overflow: hidden;
 }
@@ -110,6 +126,7 @@ a:hover{
     gap: 20px;
     flex-basis:0;
     justify-self: center;
+    align-items: center;
     flex-grow: 1;
     min-width: 300px;
 }
@@ -121,7 +138,8 @@ a:hover{
 .email{
     display:flex;
     min-width: 300px;
-    overflow: hidden;;
+    overflow: hidden;
+    
 }
 
 .copiar{
